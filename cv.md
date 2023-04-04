@@ -11,7 +11,6 @@ I am 33 years old. I work as a bartender, but I want to change my profession and
 ## Code examples
 Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
 
-```function solution(str, ending){
 ```
 function solution(str, ending){
      return str.slice(str.length - ending.length, str.length) === ending;
